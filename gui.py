@@ -8,7 +8,7 @@ from trading_logic import moving_average_strategy, simulate_trading
 import datetime
 from notifications import send_sms_notification
 
-def plot_candlestick(data):
+def plot_candlestick(data, stock_symbol):
     fig, ax = mpf.plot(
         data,
         type='candle',
@@ -20,7 +20,7 @@ def plot_candlestick(data):
         figscale=1.2
     )
 
-    fig.suptitle('Candlestick Chart with Buy/Sell Signals', fontsize=14, y=0.95)
+    fig.suptitle(f'Candlestick Chart for {stock_symbol}', fontsize=14, y=0.95)
     
     ax[0].spines['bottom'].set_color('white')
     ax[1].spines['top'].set_color('white')
@@ -46,7 +46,7 @@ def start_gui():
         for widget in chart_frame.winfo_children():
             widget.destroy()
 
-        fig = plot_candlestick(data)
+        fig = plot_candlestick(data, selected_symbol)
         canvas = FigureCanvasTkAgg(fig, master=chart_frame)
         canvas.draw()
         canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
