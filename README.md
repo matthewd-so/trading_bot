@@ -1,6 +1,7 @@
 # Stock Trading Bot with GUI
 
-<img width="1083" alt="Screenshot 2024-08-28 at 1 07 19 PM" src="https://github.com/user-attachments/assets/84310ab4-af7a-4c60-b5c4-8925b53f1467">
+
+<img width="1088" alt="Screenshot 2024-08-28 at 1 09 50 PM" src="https://github.com/user-attachments/assets/6faa49f2-a8e1-4515-8331-e2a849d5a88b">
 
 
 A stock trading bot featuring a GUI for simulating trading strategies and visualizing financial data. Built with Python and several advanced libraries, this project provides real-time insights and notifications to enhance your trading experience.
