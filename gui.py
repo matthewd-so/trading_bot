@@ -70,7 +70,7 @@ def start_gui():
         root.after(2000, lambda: update_price_and_time(symbol))
 
     root = tk.Tk()
-    root.title("Stock Trading Bot Simulation")
+    root.title("Stock Trading Bot")
     root.geometry("900x700")
     root.configure(bg="#2b2b2b")
 
