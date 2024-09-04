@@ -1,4 +1,4 @@
-# Stock Trading Strategy Engine
+# Stock Trading Bot
 
 
 <img width="937" alt="Screenshot 2024-08-28 at 1 14 11 PM" src="https://github.com/user-attachments/assets/2dbf23a5-c2f9-4efc-92b6-0c4dd4120499">
